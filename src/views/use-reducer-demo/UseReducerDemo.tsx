@@ -11,7 +11,7 @@ function reducer(state: { count: number }, type: string) {
     case "sub":
       return { count: state.count - 1 };
     default:
-      throw new Error();
+      return state;
   }
 }
 
