@@ -65,7 +65,7 @@ function Board() {
   return (
     <>
       <div style={{ textAlign: "center" }}>
-        胜者是：{winner}，当前的：{currentPlayer}
+        胜者是：{winner}，当前落子者：{currentPlayer}
       </div>
       <div className="board">
         {squares.map((square, index) => {
