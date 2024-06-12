@@ -1,4 +1,4 @@
-import "./App.less";
+import "./index.less";
 
 import { useEffect, useState } from "react";
 
