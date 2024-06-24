@@ -21,7 +21,8 @@ export default function Counter() {
   return (
     <div>
       <p>当前计数：{state.count}</p>
-      <button onClick={() => dispatch("add")}>click to + 1</button> <button onClick={() => dispatch("sub")}>click to - 1</button>
+      <button onClick={() => dispatch("add")}>click to + 1</button>{" "}
+      <button onClick={() => dispatch("sub")}>click to - 1</button>
     </div>
   );
 }
