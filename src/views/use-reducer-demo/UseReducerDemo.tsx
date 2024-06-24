@@ -1,7 +1,7 @@
 import { useReducer } from "react";
 
 const initialState = {
-  count: 0,
+  count: 1,
 };
 
 function reducer(state: { count: number }, type: string) {
